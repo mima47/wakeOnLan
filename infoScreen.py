@@ -39,7 +39,7 @@ def main():
     nameLabel.grid(row=0, column=0, sticky=W)
 
     ipInfoLabel = Label(labelFrame, text=getIp())
-    ipInfoLabel.grid(row=1, column=1, pady=(0, 5))
+    ipInfoLabel.grid(row=1, column=1, pady=(0, 5), sticky=W)
 
     ipLabel = Label(labelFrame, text='IP Address: ')
     ipLabel.grid(row=1, column=0, sticky=W)
